@@ -59,7 +59,7 @@ Model house
 	s_house_vertices, s_house_faces, s_house_normals, s_house_colors, s_house_tex_coords
 };
 GLDemoWindow::GLDemoWindow(int width, int height)
-: Window (width, height), _crate_texture("tex.png")
+: Window (width, height), _crate_texture("dom.png")
 {
 	SDL_GL_SetSwapInterval(1);
 //	SDL_GL_SetSwapInterval(0);
